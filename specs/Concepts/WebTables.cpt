@@ -1,0 +1,25 @@
+Created by cvsburak on 16.10.2021
+
+This is a concept file with following syntax for each concept.
+# Add new record
+* Click elemetn by "WebTables_addRecord"
+
+# Fill the form with <name>, <lastName>, <mail>, <age>, <salary> and <department>
+* Send <name> to element "WebTables_firstName"
+* Send <lastName> to element "WebTables_lastName"
+* Send <mail> to element "WebTables_mail"
+* Send <age> to element "WebTables_age"
+* Send <salary> to element "WebTables_salary"
+* Send <department> to element "WebTables_department"
+
+# Submit the record
+* Click elemetn by "WebTables_submitButton"
+
+# Check web tables title
+* Check elements "WebTables_formTitle" title, equals to "Registration Form"
+
+# Check if record has added by <name>
+* Check element "WebTables_checkRecordName" which values equals to <name> in a list
+
+# Delete record that name equals to <name>
+* Click "WebTables_deleteButton" which the other "WebTables_checkRecordName" values equals to <name> in a list

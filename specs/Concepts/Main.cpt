@@ -1,0 +1,23 @@
+Created by cvsburak on 16.10.2021
+
+This is a concept file with following syntax for each concept.
+# Click random card and save its text
+* Click random "cards" and save text to context with "DESC"
+
+# Check if title equals to saved text
+* Get element "DESC" by key "title" and compare with context, if "EQUAL"
+
+# Click card at index <index>
+* Click element by "cards" with index <index>
+
+# Check if title equals to <title>
+* Check elements "title" title, equals to <title>
+
+# Click element which values equals to <text>
+* Click element "elements" which values equals to <text> in a list
+
+# Click new tab button
+* Click elemetn by "newTab"
+
+# Check if new tabs heading equals to <text>
+* Check elements "newTabText" title, equals to <text>

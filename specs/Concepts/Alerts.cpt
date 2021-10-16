@@ -1,0 +1,23 @@
+Created by cvsburak on 16.10.2021
+
+
+# Click alert button
+* Click elemetn by "Alerts_firstButton"
+
+# Click timer alert button
+* Click elemetn by "Alerts_secondButton"
+
+# Click confirmational alert button
+* Click elemetn by "Alerts_thirdButton"
+
+# Click prompt alert button
+* Click elemetn by "Alerts_fourthButton"
+
+# Check the result after selecting confirm
+* Check elements "Alerts_thirdButtonResult" title, equals to "You selected Ok"
+
+# Check the result after selecting cancel
+* Check elements "Alerts_thirdButtonResult" title, equals to "You selected Cancel"
+
+# Check the promt alert result <text>
+* Check elements "Alerts_fourthButtonResult" title, equals to <text>

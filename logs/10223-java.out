@@ -1,0 +1,98 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 574milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 574"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51376"}
+{"logLevel":"info","message":"Listening on port:51376"}
+2021-10-16 13:57:24 INFO  Reflections:228 scan - Reflections took 1861 ms to scan 81 urls, producing 5867 keys and 31058 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickAnotherElementEqualsToText' and 'web.Steps.StepImplementation.clickAnotherElementEqualsToText'"}
+{"logLevel":"debug","message":"Found Click {} which the other {} values equals to {} in a list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.waitBySeconds' and 'web.Steps.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickRandomElementSaveToContext' and 'web.Steps.StepImplementation.clickRandomElementSaveToContext'"}
+{"logLevel":"debug","message":"Found Click random {} and save text to context with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusNewTab' and 'web.Steps.StepImplementation.chromeFocusNewTab'"}
+{"logLevel":"debug","message":"Found Focus on new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.acceptAlert' and 'web.Steps.StepImplementation.acceptAlert'"}
+{"logLevel":"debug","message":"Found Accept alert in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeOpenNewTab' and 'web.Steps.StepImplementation.chromeOpenNewTab'"}
+{"logLevel":"debug","message":"Found Open new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.sendValuesToElement' and 'web.Steps.StepImplementation.sendValuesToElement'"}
+{"logLevel":"debug","message":"Found Send {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.checkElementEqualsToText' and 'web.Steps.StepImplementation.checkElementEqualsToText'"}
+{"logLevel":"debug","message":"Found Check element {} which values equals to {} in a list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusLastTab' and 'web.Steps.StepImplementation.chromeFocusLastTab'"}
+{"logLevel":"debug","message":"Found Focus on last tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.sendTextWithAlert' and 'web.Steps.StepImplementation.sendTextWithAlert'"}
+{"logLevel":"debug","message":"Found Send text with alert {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickRandomElementByKey' and 'web.Steps.StepImplementation.clickRandomElementByKey'"}
+{"logLevel":"debug","message":"Found Click random {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.BaseSteps.sendKeyOneByOne' and 'web.Steps.BaseSteps.sendKeyOneByOne'"}
+{"logLevel":"debug","message":"Found Send {} to {} by one by in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickElement' and 'web.Steps.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click elemetn by {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.scrollToElement' and 'web.Steps.StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found Scroll to {} with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.getTextAndContextCompare' and 'web.Steps.StepImplementation.getTextAndContextCompare'"}
+{"logLevel":"debug","message":"Found Get element {} by key {} and compare with context, if {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.BaseAPI.getRequest' and 'web.Steps.BaseAPI.getRequest'"}
+{"logLevel":"debug","message":"Found GET request with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.checkAlertTextEqualsTo' and 'web.Steps.StepImplementation.checkAlertTextEqualsTo'"}
+{"logLevel":"debug","message":"Found Check alerts text equals to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.waitByMilliSeconds' and 'web.Steps.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickElementByKey' and 'web.Steps.StepImplementation.clickElementByKey'"}
+{"logLevel":"debug","message":"Found Click element by {} with index {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickElementEqualsToText' and 'web.Steps.StepImplementation.clickElementEqualsToText'"}
+{"logLevel":"debug","message":"Found Click element {} which values equals to {} in a list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.checkElementTextEqualsTo' and 'web.Steps.StepImplementation.checkElementTextEqualsTo'"}
+{"logLevel":"debug","message":"Found Check elements {} title, equals to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clearInputArea' and 'web.Steps.StepImplementation.clearInputArea'"}
+{"logLevel":"debug","message":"Found Clear text of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.closeCurrentChromeTab' and 'web.Steps.StepImplementation.closeCurrentChromeTab'"}
+{"logLevel":"debug","message":"Found Close the current tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.declineAlert' and 'web.Steps.StepImplementation.declineAlert'"}
+{"logLevel":"debug","message":"Found Decline alert in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusTabWithNumber' and 'web.Steps.StepImplementation.chromeFocusTabWithNumber'"}
+{"logLevel":"debug","message":"Found Focus on tab number {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick element {} which values equals to {} in a list : public void clickElementEqualsToText(String key, String text)"}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tCheck elements {} title, equals to {} : public void checkElementTextEqualsTo(String key, String text)"}
+{"logLevel":"debug","message":"\tAccept alert : public void acceptAlert()"}
+{"logLevel":"debug","message":"\tSend text with alert {} : public void sendTextWithAlert(String text)"}
+{"logLevel":"debug","message":"\tDecline alert : public void declineAlert()"}
+{"logLevel":"debug","message":"\tClick random {} and save text to context with {} : public void clickRandomElementSaveToContext(String key, String type)"}
+{"logLevel":"debug","message":"\tCheck element {} which values equals to {} in a list : public void checkElementEqualsToText(String key, String text)"}
+{"logLevel":"debug","message":"\tOpen new tab : public void chromeOpenNewTab()"}
+{"logLevel":"debug","message":"\tClick elemetn by {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tClose the current tab : public void closeCurrentChromeTab()"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(int seconds)"}
+{"logLevel":"debug","message":"\tClear text of element {} : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tGet element {} by key {} and compare with context, if {} : public void getTextAndContextCompare(String type, String key, String equal)"}
+{"logLevel":"debug","message":"\tSend {} to element {} : public void sendValuesToElement(String text, String key)"}
+{"logLevel":"debug","message":"\tFocus on new tab : public void chromeFocusNewTab()"}
+{"logLevel":"debug","message":"\tSend {} to {} by one by : public void sendKeyOneByOne(String text, String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tFocus on tab number {} : public void chromeFocusTabWithNumber(int number)"}
+{"logLevel":"debug","message":"\tGET request with {} : public void getRequest(String path)"}
+{"logLevel":"debug","message":"\tFocus on last tab : public void chromeFocusLastTab()"}
+{"logLevel":"debug","message":"\tCheck alerts text equals to {} : public void checkAlertTextEqualsTo(String text)"}
+{"logLevel":"debug","message":"\tScroll to {} with {} : public void scrollToElement(String key, int index)"}
+{"logLevel":"debug","message":"\tClick random {} : public void clickRandomElementByKey(String key)"}
+{"logLevel":"debug","message":"\tClick element by {} with index {} : public void clickElementByKey(String key, int index)"}
+{"logLevel":"debug","message":"\tClick {} which the other {} values equals to {} in a list : public void clickAnotherElementEqualsToText(String key, String key2, String text)"}
+2021-10-16 13:57:25 INFO  Reflections:228 scan - Reflections took 1489 ms to scan 81 urls, producing 5803 keys and 25134 values 
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/cvsburak/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+{"logLevel":"debug","message":"Executing 'GET request with {}' using 'class web.Steps.BaseAPI.getRequest"}
+{"2 available":1,"string":31,"pending":206,"available":591,"odio":1,"Not Available":1,"voluptatem":1,"pendingg.....":1,"not exist":1,"avaliable":1,"indisponivel":4,"free":5,"ok":9,"OK":1,"sold":21,"normal":1,"gereserveerd":1,"availbale":1,"PENDING":1,"AVAILABLE":1,"AddPetTestStatus":1,"SOLD":1,"{{status}}":1,"updated":79,"Availableeee":2,"adopted":7}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

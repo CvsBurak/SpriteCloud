@@ -1,0 +1,33 @@
+[
+  {
+    "key": "cards",
+    "value": "avatar",
+    "type": "class"
+  },
+  {
+    "key": "title",
+    "value": "//*[@id=\"app\"]/div/div/div[1]/div",
+    "type": "xpath"
+  },
+  {
+    "key": "elements",
+    "value": "text",
+    "type": "class"
+  },
+  {
+    "key": "newTab",
+    "value": "tabButton",
+    "type": "id"
+  },
+  {
+    "key": "newTabText",
+    "value": "sampleHeading",
+    "type": "id"
+  }
+
+]
+
+
+
+
+

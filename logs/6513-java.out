@@ -1,0 +1,67 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 558milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 558"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63394"}
+{"logLevel":"info","message":"Listening on port:63394"}
+2021-10-16 01:56:24 INFO  Reflections:169 info - Reflections took 1882 ms to scan 81 urls, producing 5867 keys and 31045 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.waitBySeconds' and 'web.Steps.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickRandomElementSaveToContext' and 'web.Steps.StepImplementation.clickRandomElementSaveToContext'"}
+{"logLevel":"debug","message":"Found Click random {} and save text to context with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.getTextAndContextCompare' and 'web.Steps.StepImplementation.getTextAndContextCompare'"}
+{"logLevel":"debug","message":"Found Get element {} by key {} and compare with context, if {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.waitByMilliSeconds' and 'web.Steps.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickElementByKey' and 'web.Steps.StepImplementation.clickElementByKey'"}
+{"logLevel":"debug","message":"Found Click element by {} with index {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeOpenNewTab' and 'web.Steps.StepImplementation.chromeOpenNewTab'"}
+{"logLevel":"debug","message":"Found Open new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusLastTab' and 'web.Steps.StepImplementation.chromeFocusLastTab'"}
+{"logLevel":"debug","message":"Found Focus on last tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.checkElementTextEqualsTo' and 'web.Steps.StepImplementation.checkElementTextEqualsTo'"}
+{"logLevel":"debug","message":"Found Check elements {} title, equals to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.BaseSteps.sendKeyOneByOne' and 'web.Steps.BaseSteps.sendKeyOneByOne'"}
+{"logLevel":"debug","message":"Found Send {} to {} by one by in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickRandomElementByKey' and 'web.Steps.StepImplementation.clickRandomElementByKey'"}
+{"logLevel":"debug","message":"Found Click random {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clearInputArea' and 'web.Steps.StepImplementation.clearInputArea'"}
+{"logLevel":"debug","message":"Found Clear text of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.scrollToElement' and 'web.Steps.StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found Scroll to {} with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusTabWithNumber' and 'web.Steps.StepImplementation.chromeFocusTabWithNumber'"}
+{"logLevel":"debug","message":"Found Focus on tab number {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tGet element {} by key {} and compare with context, if {} : public void getTextAndContextCompare(String type, String key, String equal)"}
+{"logLevel":"debug","message":"\tCheck elements {} title, equals to {} : public void checkElementTextEqualsTo(String key, String text)"}
+{"logLevel":"debug","message":"\tSend {} to {} by one by : public void sendKeyOneByOne(String text, String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tFocus on tab number {} : public void chromeFocusTabWithNumber(int number)"}
+{"logLevel":"debug","message":"\tFocus on last tab : public void chromeFocusLastTab()"}
+{"logLevel":"debug","message":"\tClick random {} and save text to context with {} : public void clickRandomElementSaveToContext(String key, String type)"}
+{"logLevel":"debug","message":"\tOpen new tab : public void chromeOpenNewTab()"}
+{"logLevel":"debug","message":"\tScroll to {} with {} : public void scrollToElement(String key, int index)"}
+{"logLevel":"debug","message":"\tClick random {} : public void clickRandomElementByKey(String key)"}
+{"logLevel":"debug","message":"\tClick element by {} with index {} : public void clickElementByKey(String key, int index)"}
+{"logLevel":"debug","message":"\tClear text of element {} : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(int seconds)"}
+2021-10-16 01:56:26 INFO  Reflections:169 info - Reflections took 1392 ms to scan 81 urls, producing 5803 keys and 25133 values 
+Oct 16, 2021 1:56:26 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 9996
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 16, 2021 1:56:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Scroll to {} with {}' using 'class web.Steps.StepImplementation.scrollToElement"}
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+{"logLevel":"debug","message":"Executing 'Click random {} and save text to context with {}' using 'class web.Steps.StepImplementation.clickRandomElementSaveToContext"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,58 @@
+[
+  {
+    "key": "WebTables_addRecord",
+    "value": "addNewRecordButton",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_formTitle",
+    "value": "modal-title",
+    "type": "class"
+  },
+  {
+    "key": "WebTables_firstName",
+    "value": "firstName",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_lastName",
+    "value": "lastName",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_mail",
+    "value": "userEmail",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_age",
+    "value": "age",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_salary",
+    "value": "salary",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_department",
+    "value": "department",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_submitButton",
+    "value": "submit",
+    "type": "id"
+  },
+  {
+    "key": "WebTables_checkRecordName",
+    "value": "*//div[@className='ReactTable']/div/div[1]/div/div/div",
+    "type": "xpath"
+  },
+  {
+    "key": "WebTables_deleteButton",
+    "value": "*//div[@className='rt-tr']/div[6]/div/span[1]/svg/path",
+    "type": "xpath"
+  }
+
+]

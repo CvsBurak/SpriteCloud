@@ -1,0 +1,37 @@
+[
+  {
+    "key": "Alerts_firstButton",
+    "value": "alertButton",
+    "type": "id"
+  },
+  {
+    "key": "Alerts_secondButton",
+    "value": "timerAlertButton",
+    "type": "id"
+  },
+  {
+    "key": "Alerts_thirdButton",
+    "value": "confirmButton",
+    "type": "id"
+  },
+  {
+    "key": "Alerts_fourthButton",
+    "value": "promtButton",
+    "type": "id"
+  },
+  {
+    "key": "Alerts_fourthButtonResult",
+    "value": "promptResult",
+    "type": "id"
+  },
+  {
+    "key": "Alerts_thirdButtonResult",
+    "value": "confirmResult",
+    "type": "id"
+  }
+]
+
+
+
+
+
