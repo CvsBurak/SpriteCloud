@@ -1,0 +1,192 @@
+16-10-2021 15:19:16.021 [Gauge] [INFO] Initializing concepts cache with 20 concepts
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:16.021 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:16.023 [Gauge] [INFO] Initializing specs cache with 1 specs
+16-10-2021 15:19:16.023 [Gauge] [DEBUG] Adding specs from /Users/cvsburak/Desktop/spritecloud/specs/Sepc.spec
+16-10-2021 15:19:16.023 [Gauge] [INFO] Initializing steps cache with 4 steps
+16-10-2021 15:19:16.024 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55425
+16-10-2021 15:19:16.024 [Gauge] [DEBUG] Watching directory: /Users/cvsburak/Desktop/spritecloud/specs
+16-10-2021 15:19:16.024 [Gauge] [DEBUG] Found 2 files
+16-10-2021 15:19:16.024 [Gauge] [DEBUG] Watching directory: /Users/cvsburak/Desktop/spritecloud/specs/Concepts
+16-10-2021 15:19:16.024 [Gauge] [DEBUG] Found 3 files
+16-10-2021 15:19:16.334 [Gauge] [DEBUG] Api Request Received: messageType:GetLanguagePluginLibPathRequest  messageId:5  libPathRequest:{language:"java"}
+16-10-2021 15:19:16.336 [Gauge] [DEBUG] Sending API response: messageType:GetLanguagePluginLibPathResponse  messageId:5  libPathResponse:{path:"/Users/cvsburak/.gauge/plugins/java/0.7.15/libs"}
+16-10-2021 15:19:38.103 [Gauge] [INFO] Initializing concepts cache with 20 concepts
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/WebTables.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Alerts.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:38.104 [Gauge] [DEBUG] Adding concepts from /Users/cvsburak/Desktop/spritecloud/specs/Concepts/Main.cpt
+16-10-2021 15:19:38.106 [Gauge] [INFO] Initializing specs cache with 1 specs
+16-10-2021 15:19:38.106 [Gauge] [DEBUG] Adding specs from /Users/cvsburak/Desktop/spritecloud/specs/Sepc.spec
+16-10-2021 15:19:38.106 [Gauge] [INFO] Initializing steps cache with 4 steps
+16-10-2021 15:19:38.106 [Gauge] [INFO] Gauge daemon initialized and listening on port: 55528
+16-10-2021 15:19:38.107 [Gauge] [DEBUG] Watching directory: /Users/cvsburak/Desktop/spritecloud/specs
+16-10-2021 15:19:38.107 [Gauge] [DEBUG] Found 2 files
+16-10-2021 15:19:38.107 [Gauge] [DEBUG] Watching directory: /Users/cvsburak/Desktop/spritecloud/specs/Concepts
+16-10-2021 15:19:38.107 [Gauge] [DEBUG] Found 3 files
+16-10-2021 15:19:48.820 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click random card and save its text"}
+16-10-2021 15:19:48.820 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click random card and save its text"  parameterizedStepValue:"Click random card and save its text"}}
+16-10-2021 15:19:49.004 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click alert button"}
+16-10-2021 15:19:49.004 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click alert button"  parameterizedStepValue:"Click alert button"}}
+16-10-2021 15:19:49.005 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click timer alert button"}
+16-10-2021 15:19:49.007 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click timer alert button"  parameterizedStepValue:"Click timer alert button"}}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click confirmational alert button"}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click confirmational alert button"  parameterizedStepValue:"Click confirmational alert button"}}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click prompt alert button"}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click prompt alert button"  parameterizedStepValue:"Click prompt alert button"}}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check the result after selecting confirm"}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check the result after selecting confirm"  parameterizedStepValue:"Check the result after selecting confirm"}}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check the result after selecting cancel"}
+16-10-2021 15:19:49.008 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check the result after selecting cancel"  parameterizedStepValue:"Check the result after selecting cancel"}}
+16-10-2021 15:19:49.009 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check the promt alert result <text>"}
+16-10-2021 15:19:49.009 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check the promt alert result {}"  parameterizedStepValue:"Check the promt alert result <text>"  parameters:"text"}}
+16-10-2021 15:19:49.011 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click random card and save its text"}
+16-10-2021 15:19:49.011 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click random card and save its text"  parameterizedStepValue:"Click random card and save its text"}}
+16-10-2021 15:19:49.013 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if title equals to saved text"}
+16-10-2021 15:19:49.013 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to saved text"  parameterizedStepValue:"Check if title equals to saved text"}}
+16-10-2021 15:19:49.056 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check if title equals to saved text"}
+16-10-2021 15:19:49.056 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to saved text"  parameterizedStepValue:"Check if title equals to saved text"}}
+16-10-2021 15:19:49.057 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click card at index \"0\""}
+16-10-2021 15:19:49.057 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click card at index {}"  parameterizedStepValue:"Click card at index <0>"  parameters:"0"}}
+16-10-2021 15:19:49.101 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click card at index <index>"}
+16-10-2021 15:19:49.101 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click card at index {}"  parameterizedStepValue:"Click card at index <index>"  parameters:"index"}}
+16-10-2021 15:19:49.101 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if title equals to \"Elements\""}
+16-10-2021 15:19:49.102 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to {}"  parameterizedStepValue:"Check if title equals to <Elements>"  parameters:"Elements"}}
+16-10-2021 15:19:49.154 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check if title equals to <title>"}
+16-10-2021 15:19:49.154 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to {}"  parameterizedStepValue:"Check if title equals to <title>"  parameters:"title"}}
+16-10-2021 15:19:49.154 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click element which values equals to \"Web Tables\""}
+16-10-2021 15:19:49.155 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click element which values equals to {}"  parameterizedStepValue:"Click element which values equals to <Web Tables>"  parameters:"Web Tables"}}
+16-10-2021 15:19:49.223 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click element which values equals to <text>"}
+16-10-2021 15:19:49.223 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click element which values equals to {}"  parameterizedStepValue:"Click element which values equals to <text>"  parameters:"text"}}
+16-10-2021 15:19:49.224 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if title equals to \"Web Tables\""}
+16-10-2021 15:19:49.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to {}"  parameterizedStepValue:"Check if title equals to <Web Tables>"  parameters:"Web Tables"}}
+16-10-2021 15:19:49.224 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Add new record"}
+16-10-2021 15:19:49.224 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Add new record"  parameterizedStepValue:"Add new record"}}
+16-10-2021 15:19:49.274 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Click new tab button"}
+16-10-2021 15:19:49.274 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click new tab button"  parameterizedStepValue:"Click new tab button"}}
+16-10-2021 15:19:49.274 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check if new tabs heading equals to <text>"}
+16-10-2021 15:19:49.274 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if new tabs heading equals to {}"  parameterizedStepValue:"Check if new tabs heading equals to <text>"  parameters:"text"}}
+16-10-2021 15:19:49.275 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Add new record"}
+16-10-2021 15:19:49.275 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Add new record"  parameterizedStepValue:"Add new record"}}
+16-10-2021 15:19:49.275 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check web tables title"}
+16-10-2021 15:19:49.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check web tables title"  parameterizedStepValue:"Check web tables title"}}
+16-10-2021 15:19:49.330 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Fill the form with <name>, <lastName>, <mail>, <age>, <salary> and <department>"}
+16-10-2021 15:19:49.330 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Fill the form with {}, {}, {}, {}, {} and {}"  parameterizedStepValue:"Fill the form with <name>, <lastName>, <mail>, <age>, <salary> and <department>"  parameters:"name"  parameters:"lastName"  parameters:"mail"  parameters:"age"  parameters:"salary"  parameters:"department"}}
+16-10-2021 15:19:49.331 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Submit the record"}
+16-10-2021 15:19:49.331 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Submit the record"  parameterizedStepValue:"Submit the record"}}
+16-10-2021 15:19:49.331 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check web tables title"}
+16-10-2021 15:19:49.331 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check web tables title"  parameterizedStepValue:"Check web tables title"}}
+16-10-2021 15:19:49.333 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Fill the form with \"Burak\", \"Cavusoglu\", \"brkcvs321@gmail.com\", \"26\", \"4000\" and \"Automation Test Engineering\""}
+16-10-2021 15:19:49.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Fill the form with {}, {}, {}, {}, {} and {}"  parameterizedStepValue:"Fill the form with <Burak>, <Cavusoglu>, <brkcvs321@gmail.com>, <26>, <4000> and <Automation Test Engineering>"  parameters:"Burak"  parameters:"Cavusoglu"  parameters:"brkcvs321@gmail.com"  parameters:"26"  parameters:"4000"  parameters:"Automation Test Engineering"}}
+16-10-2021 15:19:49.391 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Submit the record"}
+16-10-2021 15:19:49.391 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Submit the record"  parameterizedStepValue:"Submit the record"}}
+16-10-2021 15:19:49.437 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if record has added by \"Burak\""}
+16-10-2021 15:19:49.437 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if record has added by {}"  parameterizedStepValue:"Check if record has added by <Burak>"  parameters:"Burak"}}
+16-10-2021 15:19:49.490 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Check if record has added by <name>"}
+16-10-2021 15:19:49.490 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if record has added by {}"  parameterizedStepValue:"Check if record has added by <name>"  parameters:"name"}}
+16-10-2021 15:19:49.491 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click card at index \"2\""}
+16-10-2021 15:19:49.491 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click card at index {}"  parameterizedStepValue:"Click card at index <2>"  parameters:"2"}}
+16-10-2021 15:19:49.492 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if title equals to \"Alerts, Frame & Windows\""}
+16-10-2021 15:19:49.492 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to {}"  parameterizedStepValue:"Check if title equals to <Alerts, Frame & Windows>"  parameters:"Alerts, Frame & Windows"}}
+16-10-2021 15:19:49.493 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click element which values equals to \"Alerts\""}
+16-10-2021 15:19:49.493 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click element which values equals to {}"  parameterizedStepValue:"Click element which values equals to <Alerts>"  parameters:"Alerts"}}
+16-10-2021 15:19:49.494 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if title equals to \"Alerts\""}
+16-10-2021 15:19:49.494 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to {}"  parameterizedStepValue:"Check if title equals to <Alerts>"  parameters:"Alerts"}}
+16-10-2021 15:19:49.494 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click alert button"}
+16-10-2021 15:19:49.494 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click alert button"  parameterizedStepValue:"Click alert button"}}
+16-10-2021 15:19:49.576 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check alerts text equals to \"You clicked a button\""}
+16-10-2021 15:19:49.577 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check alerts text equals to {}"  parameterizedStepValue:"Check alerts text equals to <You clicked a button>"  parameters:"You clicked a button"}}
+16-10-2021 15:19:49.741 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Delete record that name equals to <name>"}
+16-10-2021 15:19:49.741 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Delete record that name equals to {}"  parameterizedStepValue:"Delete record that name equals to <name>"  parameters:"name"}}
+16-10-2021 15:19:49.747 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Accept alert"}
+16-10-2021 15:19:49.748 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Accept alert"  parameterizedStepValue:"Accept alert"}}
+16-10-2021 15:19:49.834 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click timer alert button"}
+16-10-2021 15:19:49.834 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click timer alert button"  parameterizedStepValue:"Click timer alert button"}}
+16-10-2021 15:19:49.918 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Wait \"5\" seconds"}
+16-10-2021 15:19:49.918 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Wait {} seconds"  parameterizedStepValue:"Wait <5> seconds"  parameters:"5"}}
+16-10-2021 15:19:50.007 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check alerts text equals to \"This alert appeared after 5 seconds\""}
+16-10-2021 15:19:50.007 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check alerts text equals to {}"  parameterizedStepValue:"Check alerts text equals to <This alert appeared after 5 seconds>"  parameters:"This alert appeared after 5 seconds"}}
+16-10-2021 15:19:50.138 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click confirmational alert button"}
+16-10-2021 15:19:50.138 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click confirmational alert button"  parameterizedStepValue:"Click confirmational alert button"}}
+16-10-2021 15:19:50.187 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check alerts text equals to \"Do you confirm action?\""}
+16-10-2021 15:19:50.188 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check alerts text equals to {}"  parameterizedStepValue:"Check alerts text equals to <Do you confirm action?>"  parameters:"Do you confirm action?"}}
+16-10-2021 15:19:50.280 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check the result after selecting confirm"}
+16-10-2021 15:19:50.281 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check the result after selecting confirm"  parameterizedStepValue:"Check the result after selecting confirm"}}
+16-10-2021 15:19:50.416 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Decline alert"}
+16-10-2021 15:19:50.416 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Decline alert"  parameterizedStepValue:"Decline alert"}}
+16-10-2021 15:19:50.467 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check the result after selecting cancel"}
+16-10-2021 15:19:50.467 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check the result after selecting cancel"  parameterizedStepValue:"Check the result after selecting cancel"}}
+16-10-2021 15:19:51.421 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click prompt alert button"}
+16-10-2021 15:19:51.421 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click prompt alert button"  parameterizedStepValue:"Click prompt alert button"}}
+16-10-2021 15:19:51.457 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check alerts text equals to \"Please enter your name\""}
+16-10-2021 15:19:51.457 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check alerts text equals to {}"  parameterizedStepValue:"Check alerts text equals to <Please enter your name>"  parameters:"Please enter your name"}}
+16-10-2021 15:19:51.514 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Send text with alert \"asd\""}
+16-10-2021 15:19:51.514 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Send text with alert {}"  parameterizedStepValue:"Send text with alert <asd>"  parameters:"asd"}}
+16-10-2021 15:19:51.632 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Wait \"3\" seconds"}
+16-10-2021 15:19:51.632 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Wait {} seconds"  parameterizedStepValue:"Wait <3> seconds"  parameters:"3"}}
+16-10-2021 15:19:51.677 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check the promt alert result \"You entered asd\""}
+16-10-2021 15:19:51.677 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check the promt alert result {}"  parameterizedStepValue:"Check the promt alert result <You entered asd>"  parameters:"You entered asd"}}
+16-10-2021 15:19:51.728 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click element which values equals to \"Browser Windows\""}
+16-10-2021 15:19:51.728 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click element which values equals to {}"  parameterizedStepValue:"Click element which values equals to <Browser Windows>"  parameters:"Browser Windows"}}
+16-10-2021 15:19:51.728 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if title equals to \"Browser Windows\""}
+16-10-2021 15:19:51.728 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if title equals to {}"  parameterizedStepValue:"Check if title equals to <Browser Windows>"  parameters:"Browser Windows"}}
+16-10-2021 15:19:51.729 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click new tab button"}
+16-10-2021 15:19:51.729 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click new tab button"  parameterizedStepValue:"Click new tab button"}}
+16-10-2021 15:19:51.768 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Focus on new tab"}
+16-10-2021 15:19:51.768 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Focus on new tab"  parameterizedStepValue:"Focus on new tab"}}
+16-10-2021 15:19:51.814 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if new tabs heading equals to \"This is a sample page\""}
+16-10-2021 15:19:51.814 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if new tabs heading equals to {}"  parameterizedStepValue:"Check if new tabs heading equals to <This is a sample page>"  parameters:"This is a sample page"}}
+16-10-2021 15:19:51.893 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Close the current tab"}
+16-10-2021 15:19:51.893 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Close the current tab"  parameterizedStepValue:"Close the current tab"}}
+16-10-2021 15:21:41.523 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click random \"cards\" and save text to context with \"DESC\""}
+16-10-2021 15:21:41.525 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click random {} and save text to context with {}"  parameterizedStepValue:"Click random <cards> and save text to context with <DESC>"  parameters:"cards"  parameters:"DESC"}}
+16-10-2021 15:21:41.588 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Get element \"DESC\" by key \"title\" and compare with context, if \"EQUAL\""}
+16-10-2021 15:21:41.589 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Get element {} by key {} and compare with context, if {}"  parameterizedStepValue:"Get element <DESC> by key <title> and compare with context, if <EQUAL>"  parameters:"DESC"  parameters:"title"  parameters:"EQUAL"}}
+16-10-2021 15:21:41.631 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click element by \"cards\" with index <index>"}
+16-10-2021 15:21:41.631 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click element by {} with index {}"  parameterizedStepValue:"Click element by <cards> with index <index>"  parameters:"cards"  parameters:"index"}}
+16-10-2021 15:21:41.678 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check elements \"title\" title, equals to <title>"}
+16-10-2021 15:21:41.678 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check elements {} title, equals to {}"  parameterizedStepValue:"Check elements <title> title, equals to <title>"  parameters:"title"  parameters:"title"}}
+16-10-2021 15:21:41.728 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click element \"elements\" which values equals to <text> in a list"}
+16-10-2021 15:21:41.728 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click element {} which values equals to {} in a list"  parameterizedStepValue:"Click element <elements> which values equals to <text> in a list"  parameters:"elements"  parameters:"text"}}
+16-10-2021 15:21:41.772 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click elemetn by \"newTab\""}
+16-10-2021 15:21:41.772 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click elemetn by {}"  parameterizedStepValue:"Click elemetn by <newTab>"  parameters:"newTab"}}
+16-10-2021 15:21:41.817 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check elements \"newTabText\" title, equals to <text>"}
+16-10-2021 15:21:41.817 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check elements {} title, equals to {}"  parameterizedStepValue:"Check elements <newTabText> title, equals to <text>"  parameters:"newTabText"  parameters:"text"}}
+16-10-2021 15:24:13.317 [Gauge] [DEBUG] Spec file added / modified: /Users/cvsburak/Desktop/spritecloud/specs/Sepc.spec
+16-10-2021 15:24:13.822 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Check if record has added by <name>"}
+16-10-2021 15:24:13.824 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Check if record has added by {}"  parameterizedStepValue:"Check if record has added by <name>"  parameters:"name"}}
+16-10-2021 15:24:19.844 [Gauge] [DEBUG] Spec file added / modified: /Users/cvsburak/Desktop/spritecloud/specs/Sepc.spec

@@ -5,11 +5,6 @@ Created by cvsburak on 12.10.2021
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
-Click Random Card And Check Its Title
---------------------------------------
-* Click random card and save its text
-* Check if title equals to saved text
-
 Add New Record To Web Tables
 -----------------------------
 * Click card at index "0"
@@ -21,6 +16,11 @@ Add New Record To Web Tables
 * Fill the form with "Burak", "Cavusoglu", "brkcvs321@gmail.com", "26", "4000" and "Automation Test Engineering"
 * Submit the record
 * Check if record has added by "Burak"
+
+Click Random Card And Check Its Title
+--------------------------------------
+* Click random card and save its text
+* Check if title equals to saved text
 
 Simple Alert
 ---------------
