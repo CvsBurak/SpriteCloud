@@ -1,0 +1,301 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 585milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 585"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 54089"}
+{"logLevel":"info","message":"Listening on port:54089"}
+2021-10-20 12:47:48 INFO  Reflections:169 info - Reflections took 1790 ms to scan 81 urls, producing 5867 keys and 31056 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickAnotherElementEqualsToText' and 'web.Steps.StepImplementation.clickAnotherElementEqualsToText'"}
+{"logLevel":"debug","message":"Found Click {} which the other {} values equals to {} in a list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.waitBySeconds' and 'web.Steps.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickRandomElementSaveToContext' and 'web.Steps.StepImplementation.clickRandomElementSaveToContext'"}
+{"logLevel":"debug","message":"Found Click random {} and save text to context with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.getTextAndContextCompare' and 'web.Steps.StepImplementation.getTextAndContextCompare'"}
+{"logLevel":"debug","message":"Found Get element {} by key {} and compare with context, if {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusNewTab' and 'web.Steps.StepImplementation.chromeFocusNewTab'"}
+{"logLevel":"debug","message":"Found Focus on new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.checkAlertTextEqualsTo' and 'web.Steps.StepImplementation.checkAlertTextEqualsTo'"}
+{"logLevel":"debug","message":"Found Check alerts text equals to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.waitByMilliSeconds' and 'web.Steps.StepImplementation.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickElementByKey' and 'web.Steps.StepImplementation.clickElementByKey'"}
+{"logLevel":"debug","message":"Found Click element by {} with index {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.acceptAlert' and 'web.Steps.StepImplementation.acceptAlert'"}
+{"logLevel":"debug","message":"Found Accept alert in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeOpenNewTab' and 'web.Steps.StepImplementation.chromeOpenNewTab'"}
+{"logLevel":"debug","message":"Found Open new tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.sendValuesToElement' and 'web.Steps.StepImplementation.sendValuesToElement'"}
+{"logLevel":"debug","message":"Found Send {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.checkElementEqualsToText' and 'web.Steps.StepImplementation.checkElementEqualsToText'"}
+{"logLevel":"debug","message":"Found Check element {} which values equals to {} in a list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusLastTab' and 'web.Steps.StepImplementation.chromeFocusLastTab'"}
+{"logLevel":"debug","message":"Found Focus on last tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickElementEqualsToText' and 'web.Steps.StepImplementation.clickElementEqualsToText'"}
+{"logLevel":"debug","message":"Found Click element {} which values equals to {} in a list in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.sendTextWithAlert' and 'web.Steps.StepImplementation.sendTextWithAlert'"}
+{"logLevel":"debug","message":"Found Send text with alert {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.checkElementTextEqualsTo' and 'web.Steps.StepImplementation.checkElementTextEqualsTo'"}
+{"logLevel":"debug","message":"Found Check elements {} title, equals to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickRandomElementByKey' and 'web.Steps.StepImplementation.clickRandomElementByKey'"}
+{"logLevel":"debug","message":"Found Click random {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.BaseSteps.sendKeyOneByOne' and 'web.Steps.BaseSteps.sendKeyOneByOne'"}
+{"logLevel":"debug","message":"Found Send {} to {} by one by in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clearInputArea' and 'web.Steps.StepImplementation.clearInputArea'"}
+{"logLevel":"debug","message":"Found Clear text of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.clickElement' and 'web.Steps.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click elemetn by {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.closeCurrentChromeTab' and 'web.Steps.StepImplementation.closeCurrentChromeTab'"}
+{"logLevel":"debug","message":"Found Close the current tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.declineAlert' and 'web.Steps.StepImplementation.declineAlert'"}
+{"logLevel":"debug","message":"Found Decline alert in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.scrollToElement' and 'web.Steps.StepImplementation.scrollToElement'"}
+{"logLevel":"debug","message":"Found Scroll to {} with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'web.Steps.StepImplementation.chromeFocusTabWithNumber' and 'web.Steps.StepImplementation.chromeFocusTabWithNumber'"}
+{"logLevel":"debug","message":"Found Focus on tab number {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick element {} which values equals to {} in a list : public void clickElementEqualsToText(String key, String text)"}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tCheck elements {} title, equals to {} : public void checkElementTextEqualsTo(String key, String text)"}
+{"logLevel":"debug","message":"\tAccept alert : public void acceptAlert()"}
+{"logLevel":"debug","message":"\tSend text with alert {} : public void sendTextWithAlert(String text)"}
+{"logLevel":"debug","message":"\tDecline alert : public void declineAlert()"}
+{"logLevel":"debug","message":"\tClick random {} and save text to context with {} : public void clickRandomElementSaveToContext(String key, String type)"}
+{"logLevel":"debug","message":"\tCheck element {} which values equals to {} in a list : public void checkElementEqualsToText(String key, String text)"}
+{"logLevel":"debug","message":"\tOpen new tab : public void chromeOpenNewTab()"}
+{"logLevel":"debug","message":"\tClick elemetn by {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tClose the current tab : public void closeCurrentChromeTab()"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(int seconds)"}
+{"logLevel":"debug","message":"\tClear text of element {} : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tGet element {} by key {} and compare with context, if {} : public void getTextAndContextCompare(String type, String key, String equal)"}
+{"logLevel":"debug","message":"\tSend {} to element {} : public void sendValuesToElement(String text, String key)"}
+{"logLevel":"debug","message":"\tFocus on new tab : public void chromeFocusNewTab()"}
+{"logLevel":"debug","message":"\tSend {} to {} by one by : public void sendKeyOneByOne(String text, String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tFocus on tab number {} : public void chromeFocusTabWithNumber(int number)"}
+{"logLevel":"debug","message":"\tFocus on last tab : public void chromeFocusLastTab()"}
+{"logLevel":"debug","message":"\tCheck alerts text equals to {} : public void checkAlertTextEqualsTo(String text)"}
+{"logLevel":"debug","message":"\tScroll to {} with {} : public void scrollToElement(String key, int index)"}
+{"logLevel":"debug","message":"\tClick random {} : public void clickRandomElementByKey(String key)"}
+{"logLevel":"debug","message":"\tClick element by {} with index {} : public void clickElementByKey(String key, int index)"}
+{"logLevel":"debug","message":"\tClick {} which the other {} values equals to {} in a list : public void clickAnotherElementEqualsToText(String key, String key2, String text)"}
+2021-10-20 12:47:49 INFO  Reflections:169 info - Reflections took 1377 ms to scan 81 urls, producing 5803 keys and 25133 values 
+Oct 20, 2021 12:47:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 16144
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:47:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:47:52 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 0
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:47:52 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Elements and the given text is Elements
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:47:52 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Web Tables in a list
+2021-10-20 12:47:53 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Web Tables
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:47:53 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Web Tables and the given text is Web Tables
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:47:53 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:47:53 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Registration Form and the given text is Registration Form
+{"logLevel":"debug","message":"Executing 'Send {} to element {}' using 'class web.Steps.StepImplementation.sendValuesToElement"}
+2021-10-20 12:47:53 INFO  StepImplementation:62 sendValuesToElement - Sending Burak to element
+{"logLevel":"debug","message":"Executing 'Send {} to element {}' using 'class web.Steps.StepImplementation.sendValuesToElement"}
+2021-10-20 12:47:54 INFO  StepImplementation:62 sendValuesToElement - Sending Cavusoglu to element
+{"logLevel":"debug","message":"Executing 'Send {} to element {}' using 'class web.Steps.StepImplementation.sendValuesToElement"}
+2021-10-20 12:47:54 INFO  StepImplementation:62 sendValuesToElement - Sending brkcvs321@gmail.com to element
+{"logLevel":"debug","message":"Executing 'Send {} to element {}' using 'class web.Steps.StepImplementation.sendValuesToElement"}
+2021-10-20 12:47:54 INFO  StepImplementation:62 sendValuesToElement - Sending 26 to element
+{"logLevel":"debug","message":"Executing 'Send {} to element {}' using 'class web.Steps.StepImplementation.sendValuesToElement"}
+2021-10-20 12:47:54 INFO  StepImplementation:62 sendValuesToElement - Sending 4000 to element
+{"logLevel":"debug","message":"Executing 'Send {} to element {}' using 'class web.Steps.StepImplementation.sendValuesToElement"}
+2021-10-20 12:47:54 INFO  StepImplementation:62 sendValuesToElement - Sending Automation Test Engineering to element
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:47:54 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Check element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.checkElementEqualsToText"}
+2021-10-20 12:47:54 INFO  StepImplementation:87 checkElementEqualsToText - Looking for Burak in a list
+Oct 20, 2021 12:47:54 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 47901
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:47:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click random {} and save text to context with {}' using 'class web.Steps.StepImplementation.clickRandomElementSaveToContext"}
+2021-10-20 12:47:57 INFO  StepImplementation:116 clickRandomElementSaveToContext - Saving the  as DESC
+2021-10-20 12:47:57 INFO  BaseSteps:63 setTextToContextFromRandom - Getting DESC to compare, the DESC is: 
+{"logLevel":"debug","message":"Executing 'Get element {} by key {} and compare with context, if {}' using 'class web.Steps.StepImplementation.getTextAndContextCompare"}
+2021-10-20 12:47:57 INFO  StepImplementation:130 getTextAndContextCompare - Forms
+2021-10-20 12:47:57 INFO  StepImplementation:142 getTextAndContextCompare - The saved context is: 
+Oct 20, 2021 12:47:57 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 42813
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:47:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:48:00 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 2
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:00 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts, Frame & Windows and the given text is Alerts, Frame & Windows
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:48:00 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Alerts in a list
+2021-10-20 12:48:00 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Alerts
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:01 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts and the given text is Alerts
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:48:01 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Check alerts text equals to {}' using 'class web.Steps.StepImplementation.checkAlertTextEqualsTo"}
+Oct 20, 2021 12:48:29 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 34767
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:48:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:48:32 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 2
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:32 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts, Frame & Windows and the given text is Alerts, Frame & Windows
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:48:32 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Alerts in a list
+2021-10-20 12:48:32 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Alerts
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:33 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts and the given text is Alerts
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:48:33 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class web.Steps.StepImplementation.waitBySeconds"}
+2021-10-20 12:48:33 INFO  StepImplementation:164 waitBySeconds - Waiting 5 seconds
+{"logLevel":"debug","message":"Executing 'Check alerts text equals to {}' using 'class web.Steps.StepImplementation.checkAlertTextEqualsTo"}
+{"logLevel":"debug","message":"Executing 'Accept alert' using 'class web.Steps.StepImplementation.acceptAlert"}
+Oct 20, 2021 12:48:38 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 18074
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:48:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:48:41 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 2
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:41 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts, Frame & Windows and the given text is Alerts, Frame & Windows
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:48:41 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Alerts in a list
+2021-10-20 12:48:41 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Alerts
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:42 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts and the given text is Alerts
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:48:42 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Check alerts text equals to {}' using 'class web.Steps.StepImplementation.checkAlertTextEqualsTo"}
+{"logLevel":"debug","message":"Executing 'Accept alert' using 'class web.Steps.StepImplementation.acceptAlert"}
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:42 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is You selected Ok and the given text is You selected Ok
+Oct 20, 2021 12:48:42 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 42847
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:48:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:48:45 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 2
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:45 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts, Frame & Windows and the given text is Alerts, Frame & Windows
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:48:45 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Alerts in a list
+2021-10-20 12:48:45 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Alerts
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:46 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts and the given text is Alerts
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:48:46 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Check alerts text equals to {}' using 'class web.Steps.StepImplementation.checkAlertTextEqualsTo"}
+{"logLevel":"debug","message":"Executing 'Decline alert' using 'class web.Steps.StepImplementation.declineAlert"}
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:46 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is You selected Cancel and the given text is You selected Cancel
+Oct 20, 2021 12:48:46 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 4890
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:48:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:48:49 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 2
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:49 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts, Frame & Windows and the given text is Alerts, Frame & Windows
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:48:49 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Alerts in a list
+2021-10-20 12:48:49 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Alerts
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:50 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts and the given text is Alerts
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:48:50 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Check alerts text equals to {}' using 'class web.Steps.StepImplementation.checkAlertTextEqualsTo"}
+{"logLevel":"debug","message":"Executing 'Send text with alert {}' using 'class web.Steps.StepImplementation.sendTextWithAlert"}
+{"logLevel":"debug","message":"Executing 'Accept alert' using 'class web.Steps.StepImplementation.acceptAlert"}
+{"logLevel":"debug","message":"Executing 'Wait {} seconds' using 'class web.Steps.StepImplementation.waitBySeconds"}
+2021-10-20 12:48:50 INFO  StepImplementation:164 waitBySeconds - Waiting 3 seconds
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:53 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is You entered asd and the given text is You entered asd
+Oct 20, 2021 12:48:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 34822
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:48:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:48:56 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 2
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:56 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts, Frame & Windows and the given text is Alerts, Frame & Windows
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:48:56 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Browser Windows in a list
+2021-10-20 12:48:56 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Browser Windows
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:56 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Browser Windows and the given text is Browser Windows
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:48:56 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Focus on new tab' using 'class web.Steps.StepImplementation.chromeFocusNewTab"}
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:48:57 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is This is a sample page and the given text is This is a sample page
+Oct 20, 2021 12:48:57 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 35891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 20, 2021 12:48:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {} with index {}' using 'class web.Steps.StepImplementation.clickElementByKey"}
+2021-10-20 12:49:00 INFO  StepImplementation:34 clickElementByKey - Clicking the element that's index is 2
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:49:00 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Alerts, Frame & Windows and the given text is Alerts, Frame & Windows
+{"logLevel":"debug","message":"Executing 'Click element {} which values equals to {} in a list' using 'class web.Steps.StepImplementation.clickElementEqualsToText"}
+2021-10-20 12:49:00 INFO  StepImplementation:75 clickElementEqualsToText - Looking for Browser Windows in a list
+2021-10-20 12:49:00 INFO  StepImplementation:78 clickElementEqualsToText - Clicking element whose value is Browser Windows
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:49:00 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Browser Windows and the given text is Browser Windows
+{"logLevel":"debug","message":"Executing 'Click elemetn by {}' using 'class web.Steps.StepImplementation.clickElement"}
+2021-10-20 12:49:00 INFO  StepImplementation:68 clickElement - Clicking element
+{"logLevel":"debug","message":"Executing 'Focus on new tab' using 'class web.Steps.StepImplementation.chromeFocusNewTab"}
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:49:01 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is This is a sample page and the given text is This is a sample page
+{"logLevel":"debug","message":"Executing 'Close the current tab' using 'class web.Steps.StepImplementation.closeCurrentChromeTab"}
+{"logLevel":"debug","message":"Executing 'Check elements {} title, equals to {}' using 'class web.Steps.StepImplementation.checkElementTextEqualsTo"}
+2021-10-20 12:49:01 INFO  StepImplementation:47 checkElementTextEqualsTo - The element's text is Browser Windows and the given text is Browser Windows
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

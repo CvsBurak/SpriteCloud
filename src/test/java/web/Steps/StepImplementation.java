@@ -20,8 +20,6 @@ import java.util.Set;
 
 public class StepImplementation extends BaseSteps {
 
-    BaseSteps baseSteps=new BaseSteps();
-
     private static Log4jLoggerAdapter logger = (Log4jLoggerAdapter) LoggerFactory
             .getLogger(StepImplementation.class);
 
@@ -233,7 +231,5 @@ public class StepImplementation extends BaseSteps {
         driver.close();
         ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(tabs.size() - 1));
-
     }
-
 }

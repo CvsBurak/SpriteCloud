@@ -8,11 +8,8 @@ import web.helper.StoreHelper;
 import web.model.ElementInfo;
 import com.thoughtworks.gauge.Step;
 
-import java.sql.*;
 import java.util.*;
 import java.util.NoSuchElementException;
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -26,18 +23,11 @@ import static org.junit.Assert.assertTrue;
 
 public class BaseSteps extends HookImp {
 
-  public static int DEFAULT_MAX_ITERATION_COUNT = 150;
-  public static int DEFAULT_MILLISECOND_WAIT_AMOUNT = 100;
-
   private static Log4jLoggerAdapter logger = (Log4jLoggerAdapter) LoggerFactory
           .getLogger(BaseSteps.class);
 
-  private static String SAVED_ATTRIBUTE;
-
   public ScenarioContext context;
-
   private Actions actions = new Actions(driver);
-  private String compareText;
 
   public BaseSteps() {
 
@@ -63,80 +53,8 @@ public class BaseSteps extends HookImp {
     return driver.findElements(infoParam);
   }
 
-  private void clickElement(WebElement element) {
-    element.click();
-  }
-
-  private void clickElementBy(String key) {
-    findElement(key).click();
-  }
-
-  private void hoverElement(WebElement element) {
-    actions.moveToElement(element).build().perform();
-  }
-
-  private void hoverElementBy(String key) {
-    WebElement webElement = findElement(key);
-    actions.moveToElement(webElement).build().perform();
-  }
-
-  private void sendKeyESC(String key) {
-    findElement(key).sendKeys(Keys.ESCAPE);
-
-  }
-
-  private boolean isDisplayed(WebElement element) {
-    return element.isDisplayed();
-  }
-
-  private boolean isDisplayedBy(By by) {
-    return driver.findElement(by).isDisplayed();
-  }
-
-  private String getPageSource() {
-    return driver.switchTo().alert().getText();
-  }
-
-  public static String getSavedAttribute() {
-    return SAVED_ATTRIBUTE;
-  }
-
-  public String randomString(int stringLength) {
-
-    Random random = new Random();
-    char[] chars = "ABCDEFGHIJKLMNOPQRSTUWVXYZabcdefghijklmnopqrstuwvxyz0123456789".toCharArray();
-    String stringRandom = "";
-    for (int i = 0; i < stringLength; i++) {
-
-      stringRandom = stringRandom + chars[random.nextInt(chars.length)];
-    }
-
-    return stringRandom;
-  }
-
   public WebElement findElementWithKey(String key) {
     return findElement(key);
-  }
-
-  public String getElementText(String key) {
-    return findElement(key).getText();
-  }
-
-  public String getElementAttributeValue(String key, String attribute) {
-    return findElement(key).getAttribute(attribute);
-  }
-
-  public void javaScriptClicker(WebDriver driver, WebElement element) {
-
-    JavascriptExecutor jse = ((JavascriptExecutor) driver);
-    jse.executeScript("var evt = document.createEvent('MouseEvents');"
-            + "evt.initMouseEvent('click',true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0,null);"
-            + "arguments[0].dispatchEvent(evt);", element);
-  }
-
-  public void javascriptclicker(WebElement element) {
-    JavascriptExecutor executor = (JavascriptExecutor) driver;
-    executor.executeScript("arguments[0].click();", element);
   }
 
   public void setTextToContextFromRandom(String type, WebElement elem) {
@@ -163,8 +81,6 @@ public class BaseSteps extends HookImp {
         return null;
     }
   }
-
-
 
   private JavascriptExecutor getJSExecutor() {
     return (JavascriptExecutor) driver;
@@ -198,11 +114,6 @@ public class BaseSteps extends HookImp {
       logger.info(key + " elementine " + text + " texti karakterler tek tek girlilerek yazıldı.");
     }
   }
-
-
-
-
-
 }
 
 
